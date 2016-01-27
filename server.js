@@ -45,7 +45,7 @@ function scrapeMeteo()
             '"' + json.humidity + '",' +
             '"' + json.dew_point + '",' +
             '"' + json.pression + '",' +
-            '"' + json.rain + '\n'
+            '"' + json.rain + '"\n'
 
         , function(err){
             console.log('File creato in /crawled_data');
